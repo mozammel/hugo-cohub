@@ -7,43 +7,57 @@ title = 'cohub'
 [Menu]
   # Main Menu
   [[menu.Main]]
-  name = "Exibhition"
+  name = "Notice"
   url= "#gallery"
   weight = 1
   [[menu.Main]]
-  name = "Feature"
+  name = "Certifications"
   url= "#service"
-  weight = 1
-  [[menu.Main]]
-  name = "About"
-  url= "/about/"
-  weight = 3
-  [[menu.Main]]
-  name = "Blog"
-  url= "#blog"
-  weight = 4
-  [[menu.Main]]
-  name = "Pricing"
-  url= "#pricing"
-  weight = 5
-  [[menu.Main]]
-  name = "FAQ"
-  url= "#faq"
-  weight = 6
+  weight = 2
   [[menu.Main]]
   name = "Contact"
   url= "/contact/"
-  weight = 7
+  weight = 3
 
   # Sitemap Menu
   [[menu.sitemap]]
   name = "Privacy Policy"
-  url = "/privacy/"
+  url = "privacy/"
   weight = 1
   [[menu.sitemap]]
   name = "Terms"
-  url = "/terms/"
+  url = "terms/"
   weight = 2
+
+
+  # [[menu.Main]]
+  # name = "Exibhition"
+  # url= "#gallery"
+  # weight = 1
+  # [[menu.Main]]
+  # name = "Feature"
+  # url= "#service"
+  # weight = 1
+  # [[menu.Main]]
+  # name = "About"
+  # url= "/about/"
+  # weight = 3
+  # [[menu.Main]]
+  # name = "Blog"
+  # url= "#blog"
+  # weight = 4
+  # [[menu.Main]]
+  # name = "Pricing"
+  # url= "#pricing"
+  # weight = 5
+  # [[menu.Main]]
+  # name = "FAQ"
+  # url= "#faq"
+  # weight = 6
+  # [[menu.Main]]
+  # name = "Contact"
+  # url= "/contact/"
+  # weight = 7
 
 [params]
   aboutPageURL = "blog"
