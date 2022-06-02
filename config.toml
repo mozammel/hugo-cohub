@@ -1,8 +1,8 @@
 baseURL = 'https://cohub-hugo.netlify.app'
 languageCode = 'en-us'
 paginate = 6
-theme= "coHub"
-title = 'coHub'
+theme= "cohub"
+title = 'cohub'
  
 [Menu]
   # Main Menu
